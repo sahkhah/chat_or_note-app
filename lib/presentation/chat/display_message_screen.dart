@@ -18,7 +18,7 @@ class _DisplayMessageScreenState extends State<DisplayMessageScreen> {
       body: StreamBuilder(
         stream: messageStream,
         builder: (context, snapshot) {
-          final result = snapshot.data!.docs;
+          //final result = snapshot.data!.docs;
           if (snapshot.hasData) {
             return ListView.builder(
               shrinkWrap: true,
